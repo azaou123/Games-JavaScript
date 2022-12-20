@@ -11,7 +11,7 @@ function validate(){
         }
         else {
             let span = document.createElement('span')
-            span.innerHTML = inValue.value+' =✔'
+            span.innerHTML = inValue.value+' = ✔'
             elements[7].appendChild(span)
             elements[1].innerHTML = elements[7].children.length +' atempts !'
             for (let i=2;i<elements.length-1;i++){
